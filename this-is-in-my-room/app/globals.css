@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Benzin-Semibold';
+  src: url('/Fonts/benzin/BenzinSemibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Benzin-bold';
+  src: url('/Fonts/Benzin-Font/benzin-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Benzin-extrabold';
+  src: url('/Fonts/Benzin-Font/benzin-extrabold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Benzin-medium';
+  src: url('/Fonts/Benzin-Font/benzin-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Benzin-regular';
+  src: url('/Fonts/Benzin-Font/benzin-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+p {
+  font-family: 'Benzin-regular';
+}
+h1{
+  font-family: 'Benzin-Semibold';
+}
