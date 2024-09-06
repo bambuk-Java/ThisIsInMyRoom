@@ -1,0 +1,23 @@
+<!--?xml version="1.0" standalone="no"?-->
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="320.000000pt" height="160.000000pt" viewBox="0 0 320.000000 160.000000" preserveAspectRatio="xMidYMid meet">
+<metadata>
+  <rdf:rdf xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <rdf:description dc:title="half circle" dc:publisher="Hiox" dc:date="2015-04-17" dc:format="image/svg+xml" dc:language="en">
+      <dc:creator>
+        <rdf:bag>
+          <rdf:li>svgimages.com</rdf:li>
+        </rdf:bag>
+      </dc:creator>
+    </rdf:description>
+  </rdf:rdf>
+</metadata>
+<g transform="translate(0.000000,320.000000) scale(0.100000,-0.100000)" fill="#9C9D9B" stroke="none">
+<path d="M1400 3080 c-245 -37 -419 -101 -610 -226 -185 -121 -323 -259 -444
+-444 -128 -196 -196 -386 -231 -640 -8 -63 -15 -127 -15 -142 l0 -28 1500 0
+1500 0 0 28 c0 15 -7 79 -15 142 -35 254 -103 444 -231 640 -121 185 -259 323
+-444 444 -196 128 -386 196 -640 231 -140 19 -221 18 -370 -5z" id="node1" class="node"></path>
+</g>
+<g transform="translate(0.000000,320.000000) scale(0.100000,-0.100000)" fill="#9C9D9B" stroke="none">
+
+</g>
+</svg>
