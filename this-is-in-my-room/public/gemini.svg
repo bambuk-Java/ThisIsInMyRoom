@@ -1,0 +1,15 @@
+<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="107.5 107.5 41 41">
+  <!-- Definiere eine Maske -->
+  <mask id="outline-mask">
+    <!-- Der gesamte Bereich ist weiß, was bedeutet, dass alles angezeigt wird -->
+    <rect width="256" height="256" fill="white"/>
+    <!-- Zeichne einen schwarzen Kreis, der den Bereich abdeckt, den du maskieren willst (alles innerhalb der Outline) -->
+    <path d="M144 128.032A17.044 17.044 0 00128.032 144h-.064A17.042 17.042 0 00112 128.032v-.064A17.042 17.042 0 00127.968 112h.064A17.044 17.044 0 00144 127.968v.064z" fill="black"/>
+  </mask>
+
+  <!-- Zeichne den schwarzen Kreis und wende die Maske an, sodass der innere Teil der Outline transparent bleibt -->
+  <circle cx="128" cy="128" r="20" fill="black" mask="url(#outline-mask)"/>
+
+  <!-- Zeichne die schwarze Outline -->
+  <path d="M144 128.032A17.044 17.044 0 00128.032 144h-.064A17.042 17.042 0 00112 128.032v-.064A17.042 17.042 0 00127.968 112h.064A17.044 17.044 0 00144 127.968v.064z" fill="none" stroke="#000000" stroke-width="1"/>
+</svg>
