@@ -1,45 +1,59 @@
+/* Benzin-Semibold*/
 @font-face {
   font-family: 'Benzin-Semibold';
   src: url('/Fonts/benzin/BenzinSemibold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Benzin-bold*/
 @font-face {
   font-family: 'Benzin-bold';
   src: url('/Fonts/Benzin-Font/benzin-bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Benzin-extrabold*/
 @font-face {
   font-family: 'Benzin-extrabold';
   src: url('/Fonts/Benzin-Font/benzin-extrabold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Benzin-medium*/
 @font-face {
   font-family: 'Benzin-medium';
   src: url('/Fonts/Benzin-Font/benzin-medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Benzin-regular*/
 @font-face {
   font-family: 'Benzin-regular';
   src: url('/Fonts/Benzin-Font/benzin-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Madera_reg*/
 @font-face {
   font-family: 'Madera_reg';
   src: url('/Fonts/madera/Madera_reg.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
+/* Madera_bold*/
 @font-face {
   font-family: 'Madera_bold';
   src: url('/Fonts/madera/Madera_W01_bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -58,13 +72,25 @@
   }
 }
 
+::selection {
+  background-color: #ff6347;
+  color: #ffeeba;
+}
+
 p {
   font-family: 'Benzin-regular';
 }
-h1, h4{
+
+h1,
+h4 {
   font-family: 'Benzin-Semibold';
 }
-h3{
+
+h3 {
   font-family: 'benzin-regular';
   font-size: 5vh;
+}
+
+body {
+  cursor: none;
 }

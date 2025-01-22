@@ -30,7 +30,7 @@ const Header = () => {
             style={{
                 position: 'sticky',
                 top: 0,
-                zIndex: 10,
+                zIndex: 31,
                 height: height,
                 transition: 'height 0.5s ease-in-out',
             }}
@@ -44,14 +44,14 @@ const Header = () => {
                     top: 0,
                     left: 0,
                     right: 0,
-                    zIndex: 10,
+                    zIndex: 31,
                     scaleX: scrollYProgress
                 }}
                 className="progress-bar"
             />
             <div
                 style={{
-                    backgroundImage: 'url(/background-smooth-texture.jpg)',
+                    backgroundImage: 'url(/white-wall-background.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     position: 'absolute',
@@ -78,8 +78,8 @@ const Header = () => {
             />
             <div className="w-screen flex justify-between items-center pt-[4vh]">
                 <div className="flex items-center pl-[25vh]">
-                    <p className="pr-6 text-xs">GENERATE</p>
-                    <p className="text-xs">GALLERY</p>
+                    <p className="pr-6 text-xs">GALLERIE</p>
+                    <p className="text-xs">VIDEO</p>
                 </div>
                 <div className="flex justify-center items-center">
                     <Image
@@ -90,8 +90,8 @@ const Header = () => {
                     />
                 </div>
                 <div className="flex items-center pr-[25vh]">
-                    <p className="pr-6 text-xs">CONTACT</p>
-                    <p className="text-xs">JOIN</p>
+                    <p className="pr-6 text-xs">GERÄTE</p>
+                    <p className="text-xs">FAQ</p>
                 </div>
             </div>
             <div className="relative flex items-center justify-center w-5/6 mx-auto">
